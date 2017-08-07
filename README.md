@@ -59,6 +59,21 @@ SaltStack 官方文档我们必须选择一个版本来翻译。否则没法统�
  1. [GotGitHub](http://www.worldhello.net/gotgithub/)
  2. [Githug通关全攻略](http://fancyoung.com/blog/githug-cheat-sheet/)
  3. [Git&Github社区化协作使用指南](http://www.diguage.com/archives/42.html)--D瓜哥录制的视频加文字说明，建议从这个教程看起。
+ 
+ ## fork工作流
+* **准备工作**
+ 1. 申请github账号
+ 2. 安装git
+ 3.	关联git和github
+ 4.	在github上fork salt库到自己的库
+ * **如何提交文档到主库：**
+ 1.	文档commit->push到自己的github上
+ 2.	在你的github上New pull request 推送到主库
+ * **如何同步主库到本地库：**
+ 1.	更新本地库：pull request 
+ 2.	然后选择switching the base（尝试切换基来进行比较）
+ 3.	然后create pull request 将主库同步到你的库
+
 
 ## 其他
 * 关于x.
